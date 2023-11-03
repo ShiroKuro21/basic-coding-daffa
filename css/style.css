@@ -23,16 +23,22 @@ body {
 p {
     margin-top: 10px;
     font-size: 25px;
-    color: rgb(255, 114, 114);
+    color: #ff668a;
     font-family: 'Pixelify Sans', cursive;
+}
+
+span {
+    background: yellow;
+    color: #ff668a;
 }
 
 a {
    background-color: rgb(255, 183, 255);
-   font-size: 30px;
+   font-size: 35px;
    width: 500px;
    padding: 50px;
    margin: 20;
+   border-radius: 8px;
    align-items: center;
    justify-content: center;
    display: flex;
