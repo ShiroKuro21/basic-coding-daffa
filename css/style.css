@@ -6,11 +6,11 @@
     box-sizing: border-box;
 }
 body {
-    background-image: url(img/pixel-abstract.jpg);
+    background-image: url(../img/pixel-abstract.jpg);
     background-size: cover;
 }
 #header {
-    background-image: url(img/pixel\ rain.jpg);
+    background-image: url(../img/pixel\ rain.jpg);
     background-size: contain;
     padding: 35px 20px 25px;
     height: 150px;

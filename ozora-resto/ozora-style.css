@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: grid;
+    background-color: #6eb9f2;
+}
+
+#wrapper {
+    height: 2580px;
+    max-width: 990px;
+    width: 100%;
+    margin: 0 auto;
+    background-image: url(../img/ocean-layer-1.png);
+}
+#bagian-1 {
+    position: relative;
+    top: -155px;
+    left: 180px;
+    background: none;
+}
