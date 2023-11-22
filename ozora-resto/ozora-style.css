@@ -13,9 +13,84 @@ body {
     margin: 0 auto;
     background-image: url(../img/ocean-layer-1.png);
 }
-#bagian-1 {
-    position: relative;
-    top: -155px;
-    left: 180px;
-    background: none;
-}
+
+#bagian-1 
+    .fuyu-menu {
+        position: relative;
+        top: -65px;
+        left: 180px;
+        background: none;
+        }
+    .Ramen-1 {
+        position: relative;
+        bottom: -160px;
+        left: -540px;
+        }
+    .curry-rice-1 {
+        position: relative;
+        top: -55px;
+        right: -375px;
+        }
+    .hitsumabushi-1 {
+        position: relative;
+        top: -45px;
+        right: -450px;
+    }
+
+#bagian-2
+    .salju-cave-1 {
+        position: relative;
+        top: -25px;
+        left: 0;
+    }
+    .tiga-menu {
+        position: relative;
+        top: -200px;
+        right: -90px;
+    }
+    .Button-ramen {
+        position: relative;
+        top: -190px;
+        left: 25px;
+        cursor: pointer;
+        border: none;
+        background: fixed;
+    }
+    .Button-ramen:hover {background-color: #6eb9f2;}
+    .Button-ramen:active {
+        background-color: transparent;
+        box-shadow: 0 5px #6eb9f2;
+        transform: translateY(4px);
+    }
+    .button-curry {
+        position: relative;
+        top: -205px;
+        left: 33px;
+        cursor: pointer;
+        border: none;
+        background: fixed;
+    }
+    .button-curry:hover {background-color: #6eb9f2;}
+    .button-curry:active {
+        background-color: transparent;
+        box-shadow: 0 5px #6eb9f2;
+        transform: translateY(4px);
+    }
+    .button-hitsumabushi {
+        position: relative;
+        top: -190px;
+        left: 40px;
+        cursor: pointer;
+        border: none;
+        background: fixed;
+    }
+    .button-hitsumabushi:hover {background-color: #6eb9f2;}
+    .button-hitsumabushi:active {
+        background-color: transparent;
+        box-shadow: 0 5px #6eb9f2;
+        transform: translateY(4px);
+    }
+    .salju-cave-2 {
+        position: relative;
+        top: -240px;
+    }
