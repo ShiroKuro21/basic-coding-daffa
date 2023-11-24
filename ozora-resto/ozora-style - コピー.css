@@ -148,22 +148,38 @@ body {
 .dish-container {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .dish-txt {
     background-color: #1c6083;
     color: #fff;
     padding: 40px 5px 5px;
+    border-radius: 8px;
+
+}
+
+.dish-img {
+    display: block;
+}
+
+.beruang-duduk {
+    position: absolute;
+    top: 1068px;
+    left: 567px;
+    right: 0;
 }
 
 .dish-txt-2 {
     background-color: #1c6083;
     color: #fff;
     padding: 40px 5px 5px;
+    border-radius: 8px;
 }
 
 .dish-container-2 {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
