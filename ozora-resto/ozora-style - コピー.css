@@ -154,7 +154,7 @@ body {
 .dish-txt {
     background-color: #1c6083;
     color: #fff;
-    padding: 40px 5px 5px;
+    padding: 60px 10px 10px;
     border-radius: 8px;
 
 }
@@ -163,17 +163,20 @@ body {
     display: block;
 }
 
+
 .beruang-duduk {
     position: absolute;
-    top: 1068px;
-    left: 567px;
+    top: 1084px;
+    left: 659px;
     right: 0;
+    width: 520px;
+    height: auto;
 }
 
 .dish-txt-2 {
     background-color: #1c6083;
     color: #fff;
-    padding: 40px 5px 5px;
+    padding: 60px 15px 15px;
     border-radius: 8px;
 }
 
@@ -183,3 +186,37 @@ body {
     justify-content: center;
 }
 
+.beruang-rebahan {
+    position: absolute;
+    top: 1427px;
+    left: 328px;
+    right: 0;
+    width: 540px;
+    height: auto;
+}
+
+.dish-container-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rumah-eskimo {
+    position: absolute;
+    top: 1748px;
+    left: 665px;
+    right: 0;
+    width: 515px;
+    height: auto;
+}
+
+.dish-img-3 {
+    display: block
+}
+
+.dish-txt-3 {
+    background-color: #1c6083;
+    color: #fff;
+    padding: 60px 7px 7px;
+    border-radius: 8px;
+}
