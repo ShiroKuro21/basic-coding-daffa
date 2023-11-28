@@ -28,13 +28,13 @@ body {
 #bagian-1 .Ramen-1 {
         position: relative;
         bottom: -160px;
-        left: -540px;
+        left: -555px;
         }
 
 #bagian-1 .curry-rice-1 {
         position: absolute;
         top: 180px;
-        right: 645px;
+        right: 743px;
         }
 
 #bagian-1 .hitsumabushi-1 {
@@ -70,65 +70,65 @@ body {
 
 #bagian-2 .tiga-menu {
         position: absolute;
-        top: -30px;
-        left: 50px;
+        top: -110px;
+        left: -400px;
         right: 40px;
     }
 
-#bagian-2 .Button-ramen {
-        position: relative;
-        top: 50px;
-        left: -10px;
+.Button-ramen {
+        position: absolute;
+        top: -25px;
+        left: -475px;
         cursor: pointer;
         border: none;
         background: fixed;
     }
 
 .Button-ramen:hover {
-        background-color: #6eb9f2;
+        background-color: transparent;
     }
 
 .Button-ramen:active {
         background-color: transparent;
-        box-shadow: 0 5px #6eb9f2;
+        box-shadow: 0 0;
         transform: translateY(4px);
     }
 
-#bagian-2 .button-curry {
-        position: relative;
-        top: 35px;
-        left: 13px;
+.button-curry {
+        position: absolute;
+        top: -18px;
+        left: -145px;
         cursor: pointer;
         border: none;
         background: fixed;
     }
 
 .button-curry:hover {
-        background-color: #6eb9f2;
+        background-color: transparent;
     }
 
 .button-curry:active {
         background-color: transparent;
-        box-shadow: 0 5px #6eb9f2;
+        box-shadow: 0 0;
         transform: translateY(4px);
     }
 
-#bagian-2 .button-hitsumabushi {
-        position: relative;
-        top: 50px;
-        left: 29px;
+    .button-hitsumabushi {
+        position: absolute;
+        top: -25px;
+        left: 165px;
         cursor: pointer;
         border: none;
         background: fixed;
     }
 
 .button-hitsumabushi:hover {
-        background-color: #6eb9f2;
+        background-color: transparent;
     }
 
 .button-hitsumabushi:active {
         background-color: transparent;
-        box-shadow: 0 5px #6eb9f2;
+        box-shadow: 0  0;
         transform: translateY(4px);
     }
 
@@ -167,7 +167,7 @@ body {
 .beruang-duduk {
     position: absolute;
     top: 1084px;
-    left: 659px;
+    left: 743px;
     right: 0;
     width: 520px;
     height: auto;
@@ -189,7 +189,7 @@ body {
 .beruang-rebahan {
     position: absolute;
     top: 1427px;
-    left: 328px;
+    left: 410px;
     right: 0;
     width: 540px;
     height: auto;
@@ -204,7 +204,7 @@ body {
 .rumah-eskimo {
     position: absolute;
     top: 1748px;
-    left: 665px;
+    left: 747px;
     right: 0;
     width: 515px;
     height: auto;
@@ -219,4 +219,39 @@ body {
     color: #fff;
     padding: 60px 7px 7px;
     border-radius: 8px;
+}
+
+#bagian-4 .salju-cave-4 {
+    position: absolute;
+    top: 2010px;
+    left: auto;
+}
+
+.button-kupon {
+    position: relative;
+    top: 15px;
+    left: 157px;
+    cursor: pointer;
+    border: none;
+    background: fixed;
+}
+
+.button-kupon:hover {
+    background-color: transparent;
+}
+
+.button-kupon:active {
+    background-color: transparent;
+    box-shadow: 0 0;
+    transform: translateY(4px);
+}
+
+.dish-container-akses {
+    background-color: #1c6083;
+    color: #fff;
+    padding: 30px 15px 15px;
+    border-radius: 8px;
+    margin: 114px 387px 30px 61px;
+    bottom: 24px;
+    position: relative;
 }
