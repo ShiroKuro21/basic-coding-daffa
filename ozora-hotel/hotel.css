@@ -1,0 +1,46 @@
+body {
+    background-color: #f5d694;
+}
+
+#wrapper {
+    height: 6370px;
+    max-width: 990px;
+    width: 100%;
+    margin: 0 auto;
+    background-image: url(/img/Background.png);
+}
+
+#bagian-1 {
+    position: relative;
+    padding: auto;
+}
+
+.slideshow-container-bag1 {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+#bagian-1 .momiji-kiri-atas {
+    position: relative;
+    top: -2009px;
+    left: -248px;
+}
+
+#bagian-1 .ozora-hotel {
+    position: relative;
+    top: -2140px;
+    right: -720px;
+
+}
+
+#bagian-1 .reed-hotel {
+    position: relative;
+    top: -1838px;
+    right: -470px;
+}
