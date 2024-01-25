@@ -1,46 +1,64 @@
-body {
-    background-color: #f5d694;
-}
 
-#wrapper {
-    height: 6370px;
-    max-width: 990px;
+.container {
     width: 100%;
-    margin: 0 auto;
-    background-image: url(/img/Background.png);
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    overflow: hidden;
 }
 
-#bagian-1 {
+.image-bag-1 {
+    width: 105%;
+    display: flex;
+    animation: slide 15s infinite;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(0);
+    }
+    30% {
+        transform: translateX(-120%);
+    }
+    50% {
+        transform: translateX(-120%);
+    }
+    55% {
+        transform: translateX(-250%);
+    }
+    75% {
+        transform: translateX(-250%);
+    }
+    80% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+ 
+.asset-bag-1 {
     position: relative;
-    padding: auto;
 }
 
-.slideshow-container-bag1 {
-    max-width: 1000px;
+.momiji-kiri-atas {
     position: relative;
-    margin: auto;
+    top: -8px;
+    left: -8px;
 }
 
-.fade {
-    animation-name: fade;
-    animation-duration: 1.5s;
-}
-
-#bagian-1 .momiji-kiri-atas {
+.ozora-hotel {
     position: relative;
-    top: -2009px;
-    left: -248px;
+    top: -120px;
+    right: -630px;
 }
 
-#bagian-1 .ozora-hotel {
+.reed-hotel {
     position: relative;
-    top: -2140px;
-    right: -720px;
-
-}
-
-#bagian-1 .reed-hotel {
-    position: relative;
-    top: -1838px;
-    right: -470px;
+    top: 450px;
+    right: -110px;
 }
