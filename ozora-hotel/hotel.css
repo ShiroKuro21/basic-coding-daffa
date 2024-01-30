@@ -84,16 +84,21 @@
     margin: auto;
     margin-top: 4,7%;
     border: 5px solid #506432;
-    top: 880px;
+    top: 830px;
 }
 
 .navigation ul {
     display: block;
     list-style: none;
-    justify-content: center;
+    text-align: center;
     position: sticky;
     background-color: #b30019;
     margin: auto;
+}
+
+.navigation a {
+    color: white;
+    font-weight: bold;
 }
 
 .navigation li {
@@ -110,6 +115,23 @@
     display: inline-block;
 }
 
-.a:hover {
-    background-color: #7b0313;
+.navigation a:hover {
+    background-color: #7b0313;  
 }
+
+#wrapper {
+    background-image: url(../img/Background-momiji.png);
+    max-width: 990px;
+    width: 100%;
+    height: 7370px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -1000px;
+}
+
+.judul-family {
+    position: relative;
+    top: 1570px;
+    left: 220px;
+}
+
