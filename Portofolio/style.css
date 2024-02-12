@@ -43,3 +43,76 @@ nav ul li a:hover {
     color: greenyellow;
     transition: 0.5s;
 }
+.image {
+    width: 30%;
+    height: 50%;
+    position: absolute;
+    bottom: 165px;
+    right: 150px;
+    transform: rotateY(180deg);
+}
+.image img {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 23%;
+    transform: translateX(20%);
+}
+.content {
+    position: absolute;
+    top: 60%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+h1 {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+h3 {
+    color: white;
+    font-size: 20px;
+    margin: 20px 0 20px;
+}
+.content a {
+    font-size: 20px;
+    background: transparent;
+    color: white;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 30px;
+    border: 2px solid white;
+}
+.content a:hover {
+    background-color: greenyellow;
+    border: 2px solid white;
+}
+.about {
+    width: 100%;
+    padding: 100px 0;
+    background-color: #191919;
+}
+.about-me {
+    width: 2190px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-me img {
+    height: auto;
+    width: 530px;
+    border-radius: 10px;
+}
+.about-text {
+    width: 550px;
+}
+.about-text h2 {
+    color: white;
+    font-size: 65px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    border-bottom: 1px solid greenyellow;
+}
